@@ -1,0 +1,100 @@
+
+> prazzo-backend@1.0.0 test
+> jest src/__tests__/deadline.test.ts
+
+  console.log
+    [Deadline Engine] Analisando poss├¡vel prazo para o Caso case-123...
+
+      at calculateAndCreateDeadline (src/services/deadlineService.ts:10:13)
+
+  console.error
+    [Deadline Engine] Erro ao calcular prazo: TypeError: Cannot read properties of undefined (reading 'completions')
+        at calculateAndCreateDeadline (D:\Prazzo_APP\prazzo-backend\src\services\deadlineService.ts:27:42)
+        at Object.<anonymous> (D:\Prazzo_APP\prazzo-backend\src\__tests__\deadline.test.ts:43:37)
+        at Promise.finally.completed (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1557:28)
+        at new Promise (<anonymous>)
+        at callAsyncCircusFn (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1497:10)
+        at _callCircusTest (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1007:40)
+        at _runTest (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:947:3)
+        at D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:849:7
+        at _runTestsForDescribeBlock (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:862:11)
+        at _runTestsForDescribeBlock (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:857:11)
+        at run (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:761:3)
+        at runAndTransformResultsToJestFormat (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1918:21)
+        at jestAdapter (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\runner.js:101:19)
+        at runTestInternal (D:\Prazzo_APP\prazzo-backend\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (D:\Prazzo_APP\prazzo-backend\node_modules\jest-runner\build\index.js:343:7)
+
+    [0m [90m 69 |[39m
+     [90m 70 |[39m   } [36mcatch[39m (error) {
+    [31m[1m>[22m[39m[90m 71 |[39m     console[33m.[39merror([32m'[Deadline Engine] Erro ao calcular prazo:'[39m[33m,[39m error)[33m;[39m
+     [90m    |[39m             [31m[1m^[22m[39m
+     [90m 72 |[39m   }
+     [90m 73 |[39m }[33m;[39m
+     [90m 74 |[39m[0m
+
+      at calculateAndCreateDeadline (src/services/deadlineService.ts:71:13)
+      at Object.<anonymous> (src/__tests__/deadline.test.ts:43:37)
+
+  console.log
+    [Deadline Engine] Analisando poss├¡vel prazo para o Caso case-123...
+
+      at calculateAndCreateDeadline (src/services/deadlineService.ts:10:13)
+
+  console.error
+    [Deadline Engine] Erro ao calcular prazo: TypeError: Cannot read properties of undefined (reading 'completions')
+        at calculateAndCreateDeadline (D:\Prazzo_APP\prazzo-backend\src\services\deadlineService.ts:27:42)
+        at Object.<anonymous> (D:\Prazzo_APP\prazzo-backend\src\__tests__\deadline.test.ts:69:37)
+        at Promise.finally.completed (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1557:28)
+        at new Promise (<anonymous>)
+        at callAsyncCircusFn (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1497:10)
+        at _callCircusTest (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1007:40)
+        at _runTest (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:947:3)
+        at D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:849:7
+        at _runTestsForDescribeBlock (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:862:11)
+        at _runTestsForDescribeBlock (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:857:11)
+        at run (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:761:3)
+        at runAndTransformResultsToJestFormat (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\jestAdapterInit.js:1918:21)
+        at jestAdapter (D:\Prazzo_APP\prazzo-backend\node_modules\jest-circus\build\runner.js:101:19)
+        at runTestInternal (D:\Prazzo_APP\prazzo-backend\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (D:\Prazzo_APP\prazzo-backend\node_modules\jest-runner\build\index.js:343:7)
+
+    [0m [90m 69 |[39m
+     [90m 70 |[39m   } [36mcatch[39m (error) {
+    [31m[1m>[22m[39m[90m 71 |[39m     console[33m.[39merror([32m'[Deadline Engine] Erro ao calcular prazo:'[39m[33m,[39m error)[33m;[39m
+     [90m    |[39m             [31m[1m^[22m[39m
+     [90m 72 |[39m   }
+     [90m 73 |[39m }[33m;[39m
+     [90m 74 |[39m[0m
+
+      at calculateAndCreateDeadline (src/services/deadlineService.ts:71:13)
+      at Object.<anonymous> (src/__tests__/deadline.test.ts:69:37)
+
+FAIL src/__tests__/deadline.test.ts
+  Deadline Service
+    ├ù should create a deadline when IA detects one (36 ms)
+    ΓêÜ should NOT create a deadline when IA does not detect one (24 ms)
+
+  ΓùÅ Deadline Service ΓÇ║ should create a deadline when IA detects one
+
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+    Expected: ObjectContaining {"data": ObjectContaining {"eventType": "DEADLINE", "title": StringMatching /PRAZO:.*Apela├º├úo/}}
+
+    Number of calls: 0
+
+      43 |     await calculateAndCreateDeadline(caseId, 'Senten├ºa', movementText);
+      44 |
+    > 45 |     expect(prismaMock.event.create).toHaveBeenCalledWith(expect.objectContaining({
+         |                                     ^
+      46 |       data: expect.objectContaining({
+      47 |         title: expect.stringMatching(/PRAZO:.*Apela├º├úo/),
+      48 |         eventType: 'DEADLINE'
+
+      at Object.<anonymous> (src/__tests__/deadline.test.ts:45:37)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        3.532 s, estimated 4 s
+Ran all test suites matching src/__tests__/deadline.test.ts.

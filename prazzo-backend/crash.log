@@ -1,0 +1,18 @@
+D:\Prazzo_APP\prazzo-backend\node_modules\openai\src\client.ts:392
+      throw new Errors.OpenAIError(
+            ^
+
+
+OpenAIError: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at OpenAI (D:\Prazzo_APP\prazzo-backend\node_modules\openai\src\client.ts:392:13)
+    at OpenAI (d:\Prazzo_APP\prazzo-backend\src\queues\movementQueue.ts:25:16)
+    at Object.<anonymous> (d:\Prazzo_APP\prazzo-backend\src\queues\movementQueue.ts:73:2)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.transformer (D:\Prazzo_APP\prazzo-backend\node_modules\tsx\dist\register-D46fvsV_.cjs:3:1104)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at <anonymous> (d:\Prazzo_APP\prazzo-backend\src\controllers\webhookController.ts:2:33)
+
+Node.js v20.8.1
